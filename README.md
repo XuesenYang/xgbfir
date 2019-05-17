@@ -11,12 +11,12 @@ This project started as a python port of [Xgbfi - XGBoost Feature Interactions &
 Some basic description from Xgbfi project page is presented here.
 
 ### The Metrics
- * **Gain**: Total gain of each feature or feature interaction
- * **FScore**: Amount of possible splits taken on a feature or feature interaction
- * **wFScore**: Amount of possible splits taken on a feature or feature interaction weighted by the probability of the splits to take place
+ * **Gain**: Total gain of each feature or feature interaction 该特征的信息增益   
+ * **FScore**: Amount of possible splits taken on a feature or feature interaction 该特征作为节点，可能发生的分割量   
+ * **wFScore**: Amount of possible splits taken on a feature or feature interaction weighted by the probability of the splits to take place 在特征或特征交互上发生的可能的分割量，其权重为发生分割的概率。   
  * **Average wFScore**: *wFScore* divided by *FScore*
  * **Average Gain**: *Gain* divided by *FScore*
- * **Expected Gain**: Total gain of each feature or feature interaction weighted by the probability to gather the gain
+ * **Expected Gain**: Total gain of each feature or feature interaction weighted by the probability to gather the gain每个特征或特征交互的总增益   
  * **Average Tree Index**
  * **Average Tree Depth**
 
